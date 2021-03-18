@@ -1,0 +1,52 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+div {
+  min-height: 100vh;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 300%;
+}
+
+.back-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/Background.jpg) center/cover no-repeat fixed;
+}
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/Background.jpg) center/cover no-repeat fixed;
+  font-size: 200%;
+}
+
+.cup {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/Background.jpg) center/cover no-repeat fixed;
+}
+
+/* NAVBAR */
+
+.topnav {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/Background.jpg) center/cover no-repeat fixed;
+  font-size: 150%;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 153, 0);
+  color: black;
+}
